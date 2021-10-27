@@ -1,5 +1,6 @@
 /* ./src/index.css */
 @tailwind base;
+
 .menuItemHover:hover{
     cursor: pointer;
     color: #00CDFF; 

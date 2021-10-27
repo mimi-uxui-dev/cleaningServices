@@ -1,10 +1,11 @@
 import React from 'react'
 import calendar from '../assets/imgs/CalendarPlus.svg'
 import play from '../assets/imgs/Play.svg'
+import hero from '../assets/imgs/hero.png'
 
 function AboveTheFold() {
     return (
-        <div className=" h-screen flex flex-col justify-center px-96">
+        <div className="h-screen flex flex-col justify-center px-96" style={{ backgroundImage: `url(${hero})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
             <p className="text-sm text-piink font-semibold">We Are Since 1990</p>
             <h1 className="text-6xl py-4 font-bold max-w-2xl leading-tight text-darkBluue">
                 Best Cleaning Service Agency in the Town

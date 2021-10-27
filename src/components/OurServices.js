@@ -7,7 +7,7 @@ import arrow from '../assets/imgs/arr.svg'
 
 function OurServices() {
     return (
-        <div className='flex flex-col justify-center items-center py-24' style={{ background: "#CDF4FF"}} >
+        <div className='flex flex-col justify-center items-center py-24' style={{ background: "#F2FAFD"}} >
             <p className="text-sm text-piink font-semibold">Our Services</p>
             <h3 className="text-3xl py-4 font-bold max-w-lg leading-tight text-center text-darkBluue">We Work Many Fields to Clean Your Surrounding Area</h3>
             <div className="flex flex-row gap-6 mt-8">

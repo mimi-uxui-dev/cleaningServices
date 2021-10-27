@@ -5,9 +5,8 @@ import chat from '../assets/imgs/chat.svg'
 
 function Navbar() {
     return (
-        <div className="flex flex-row justify-between items-center px-96 py-4 bg-red-100 text-darkBluue w-full fixed top-0 left-0 bg-bgg">
+        <div className="z-10 flex flex-row justify-between items-center px-72 py-4 bg-red-100 text-darkBluue w-full fixed top-0 left-0" style={{ background: '#fff' }}>
             <div className="flex flex-row justify-between gap-16 items-center">
-
                 <a href="/" className="flex flex-row justify-between gap-2 items-center">
                     <img className='w-16' src={logo} alt="CS" />
                     <h3 className="font-bold text-3xl leading-6 font-serif" >Neat<br/>Service.</h3>
