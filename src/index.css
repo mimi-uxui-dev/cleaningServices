@@ -1,4 +1,12 @@
 /* ./src/index.css */
 @tailwind base;
+.menuItemHover:hover{
+    cursor: pointer;
+    color: #00CDFF; 
+    border-bottom: 2px solid #00CDFF;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 50ms;
+}
 @tailwind components;
 @tailwind utilities;

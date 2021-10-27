@@ -1,10 +1,17 @@
 import './App.css';
+import AboveTheFold from './components/AboveTheFold';
+import FunFacts from './components/FunFacts';
+import Navbar from './components/Navbar';
+import OurServices from './components/OurServices';
 
 function App() {
   return (
-    <div className="bg-red-400">
-      <h1>Miled</h1>
-    </div>
+    <>
+      <Navbar />
+      <AboveTheFold /> 
+      <FunFacts />
+      <OurServices />
+    </>
   );
 }
 
